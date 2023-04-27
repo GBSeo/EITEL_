@@ -1,0 +1,138 @@
+body{padding: 0; margin: 0; background: #F8F4F0;}
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+.wrapper{width: 1780px; margin: auto; padding: 0;}
+.flex{display:flex; justify-content: space-around;}
+a{text-decoration: none; color: inherit; background-color: transparent; border: none;outline: none;}
+
+header{position: fixed; z-index: 999; top: 0; left: 0; right: 0;
+ opacity: 1; /* 초기 투명도는 1(불투명)으로 설정 */
+ transition: opacity 0.5s ease-in-out; /* 트랜지션 효과를 추가하여 부드러운 애니메이션을 구현 */}
+.header{height:100px; background-color:#1E1E1E; position: fixed; z-index: 999; top: 0; left: 0; right: 0;}
+.header img{width: 160px; position: absolute; margin-top: 26px; margin-left: 60px;}
+ul{margin: 0; padding: 0; display: flex; justify-content: right; align-items: center;}
+li{list-style: none; text-decoration: none;
+	font-family: "mundial", sans-serif; font-weight: 100; font-style: normal; font-size: 32px; text-align: center; cursor: pointer; color: #F8F4F0;
+	display: inline-block; margin-right: 110px; margin-top: 26px;}
+
+.mainbanner{position: relative; padding-top: 80px;}
+.mainbanner img{width:100%; height: auto;}
+.mainbanner h1{
+  font-size: 70px;line-height:70px; text-align: left; color: #FFFFFF;
+	position:absolute; left:160px; top:160px; font-family: 'Pretendard'; font-weight: 600;}
+.mainbanner h2{font-size: 70px;line-height:90px;text-align: left; color: #FFFFFF;
+	position: absolute; right:160px; bottom:170px; font-family: 'Pretendard'; font-weight: 600;}
+.mainbanner p{font-size: 30px;line-height: 30px; text-align: left; color: white;
+	position: absolute; right: 160px; bottom: 150px; font-family: 'Pretendard'; font-weight: 300;}
+
+.gradient{position: relative; height: 2322px; overflow: hidden;
+	background: rgb(30,29,29);
+	background: linear-gradient(0deg, rgba(30,29,29,1) 30%, rgba(30,29,29,0) 100%);}
+.gradient h1{position: absolute; color:#484848;
+	top: 270px; left: 500px; transform: translate(-50%, -50%);
+	font-family: 'Pretendard'; font-weight: 600; font-size: 56px; Line-height: 140%; Align: Left;}
+.gradient p{position: absolute; color: #F8F4F0;
+	top: 650px; right: 80px; transform: translate(-50%, -50%);
+	font-family: 'Pretendard'; font-weight: 600; font-size: 56px; line-height: 140%; Align: left;}
+
+.girl_back img{width: 950px; height: auto;
+	 filter: drop-shadow(4px 4px 60px #000);z-index: 2; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);}
+
+.stupid img{width:100%; height:auto; z-index: 1;
+  position: absolute; bottom: 160px; left: 50%; transform: translateX(-50%);}
+
+.gradient h2{z-index: 3; color: #F8F4F0; 
+	position: absolute; bottom: 80px; left: 50%; transform: translateX(-50%);
+	font-family: 'Pretendard';
+	font-weight: 600;
+	font-size: 56px;
+	Line-height: 140%;
+	letter-spacing: 20px;
+	Align: left;
+	Vertical align: Top;}
+
+.clip1{position: relative; height: 1300px;}
+.clip1 h1{position: absolute; color: #1E1D1D; top:320px; left:160px;
+	font-family: 'Pretendard'; font-weight: 600; font-size: 60px;}
+.clip1 p{position: absolute; color: #1E1D1D; top:450px; left:160px;
+	font-family: 'Pretendard'; font-weight: 300; font-size: 30px; line-height: 55px;}
+.clip1 img{width: 1000px; height: auto; position: absolute; right: 0; top: 120px;}
+
+
+.clip2{position: relative;}
+.clip2 img{width: 100%; height: auto;}
+.clip2 h1{color: #F8F4F0; font-family: 'Pretendard'; font-weight: 600; font-size: 60px; line-height: 90px;
+	text-align: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.clip2 p{color: #F8F4F0; font-family: 'Pretendard'; font-weight: 300; font-size: 30px; line-height: 66px;
+	text-align: left; position: absolute; bottom: 10px; right: 50px;}
+
+.clip3{position: relative; margin-top: 180px; height: 1580px;}
+.clip3 .img-container{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.clip3 img{width: 1350px; height: auto;}
+.clip3 .text-container{position: absolute; top: 300px; left: 50%; transform: translate(-50%);}
+.clip3 h1{color: #F8F4F0; font-family: 'Pretendard'; font-weight: 600; font-size: 60px;
+	text-align: center;}
+.clip3 p{color: #F8F4F0; font-family: 'Pretendard'; font-weight: 300; font-size: 36px;
+	text-align: center; line-height: 62px; margin-top: 80px;}
+
+.buy-container{position: relative; height: 120px;}
+.buy{position:absolute; top:0px; left: 50%; transform: translate(-50%);
+	background-color: #F8F4F0; border: 1px solid black; width: 400px; height: 120px;}
+
+.buy-btn {
+	position: absolute; bottom: 30px; left: 50%; transform: translate(-50%);
+  border: 1px solid black;
+  background-color: #F8F4F0;
+  padding: 22px 105px;
+  font-family: "mundial", sans-serif; font-weight: 100; font-style: normal; font-size: 46px; text-align: center; cursor: pointer; color: #1E1D1D;
+}
+.now-container{position: relative; height: 1500px; margin-top: 310px;}
+.now-container img{position: absolute; left: 0; width: 1000px; height: auto;}
+.now-container h1{position: absolute; right: 350px; top:500px;
+	color: #1E1D1D; font-family: 'Pretendard'; font-weight: 600; font-size: 70px; text-align: left; line-height: 93px;}
+
+.vip-container{position: relative; margin-top: 360px; background-color: #1E1E1E; height: 2700px;}
+.vip-container img{width: 100%; height: auto; margin:auto;}
+.vip-container h1{
+	font-family: 'Pretendard'; font-weight: 600; font-style: normal; font-size: 46px; text-align: center;
+	line-height: 75px; margin-top: 5px; color: #F8F4F0;}
+.vip-container h2{
+	font-family: 'Pretendard'; font-weight: 300; font-style: normal; font-size: 36px; text-align: left;
+	line-height: 66px; margin-top: 10px; color: #F8F4F0; padding-left: 1100px;}
+.vip-container h3{position: absolute; top: 280px; left: 160px; font-size: 50px;line-height:70px;text-align: left; color: #FFFFFF; font-family: 'Pretendard'; font-weight: 600;}
+.vip-container h4{position: absolute; top: 830px; right: 160px; font-size: 50px;line-height:70px;text-align: left; color: #FFFFFF; font-family: 'Pretendard'; font-weight: 600;}
+
+
+.vip-container2{position: relative; background-color: #1E1E1E; height: 2270px;}
+.vip-container2 img{width: 1180px; height: auto; position: absolute; top: 250px; right: 0;}
+.vip-container2 h1{position: absolute; right: 1220px; top:1100px;
+	color: #F8F4F0; font-family: 'Pretendard'; font-weight: 600; font-size: 70px; text-align: right; line-height: 93px;}
+
+
+
+.contact-container{
+	position:relative; height: 1800px; background-color: #F8F4F0}
+
+.contact-container img{
+	position: absolute;
+	top:530px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 1200px;
+  height: auto;}
+
+.contact-container h1{
+	position:absolute; top: 170px; left: 50%; transform: translate(-50%);
+	font-family: "mundial", sans-serif; font-weight: 300; font-style: normal; font-size: 128px; text-align: center;
+}
+
+.send-btn {
+	position: absolute; bottom: 200px; left: 50%; transform: translate(-50%);
+  border: 1px #1E1E1E;
+  background-color: #1E1E1E;
+  padding: 20px 145px;
+  font-family: "mundial", sans-serif; font-weight: 100; font-style: normal; font-size: 46px; text-align: center; cursor: pointer; color: #F8F4F0
+}
+
+
+.footer{height: 200px; background-color: #1E1E1E;}
+.footer img{width: 190px; padding-top: 30px; padding-left: 30px;}
